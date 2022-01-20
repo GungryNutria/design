@@ -1,0 +1,68 @@
+.contact-section{
+    background: rgb(241,131,30);
+    background: radial-gradient(circle, rgba(241,131,30,1) 0%, rgba(255,130,159,1) 100%);
+    width: 100%;
+}
+.contact-section .title{
+    color: #000;
+    font-size: 30px;
+}
+.contact-section .form{
+    background-color: #000;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    width: 40%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1%;
+}
+.contact-section .form .form-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    vertical-align: top;
+    flex-flow: wrap;
+}
+.contact-section .form .form-container .form-box input{
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid rgb(241,131,30);
+    color: #000;
+    width: 100%;
+    padding: 1%;
+    font-size: 20px;
+    border-radius: 7px;
+    transition: all 1s;
+}
+.contact-section .form .form-container .form-box textarea{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgb(241,131,30);
+    border-radius: 7px;
+    width: 100%;
+}
+.contact-section .form .button{
+    color: #fff;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    padding: 1%;
+    width: 20%;
+    font-size: 15px;
+    background-color: rgb(241,131,30);
+    border: none;
+}
+.contact-section .form .form-container .form-box input:focus{
+    transition: all 1s;
+    border: 1px solid #000;
+    outline: none;
+}
+.contact-section .form .form-container .form-box p{
+    text-align: justify;
+    margin-top: 1%;   
+    color: #242424;
+}
+.contact-section .form .form-container .form-box input::placeholder{
+    color: #242424;
+}

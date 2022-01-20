@@ -1,0 +1,138 @@
+.menu-button{
+    width: 98%;
+    font-size: 30px;
+    background-color: #0b0b11;
+    padding: 1%;
+    display: none;
+}
+
+.menu-button a{
+    text-align: left;
+    margin-left: 1%;
+}
+
+header{
+    width: 100%;
+    background-color: #edeff1;
+    height: 100vh;
+
+}
+
+header nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    flex-flow: wrap;
+}
+
+header  nav .menu ul li{
+    list-style: none;
+    margin: 20px;
+    float: left;
+}
+
+header  nav .logo{
+    margin: 20px;
+}
+
+header  nav .menu ul li a{
+    color: #0b0b11;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+header .header_body{
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-flow: wrap;
+}
+header .header_body .box_text{
+    text-align: justify;
+    width: 40%;
+}
+header .header_body .box_text h1{
+    font-size: 40px;
+}
+header .header_body .box_text p{
+    color: #5b5b5b;
+    font-size: 30px;
+}
+header .header_body .box_text a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 2% 3%;
+    color: #fff;
+    background: #f1831e;
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+header .header_body .box_img{
+    width: 40%;
+}
+header .header_body .box_img img{
+    width: 600px;
+}
+@media screen and (max-width:1024px){
+    .menu-button{
+        display: block;
+    }
+    header{
+        
+        height: 50vh;
+    }
+    header nav{
+        width: 100%;
+    }
+    header nav .menu ul li{
+        list-style: none;
+        margin: 20px;
+        float: left;
+    }
+    header nav .menu ul li a{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:770px){
+    header nav{
+        background-color: #e15800;
+        text-align: left;
+        position: absolute;
+        top: 40px;
+        z-index: 20;
+        width: 100%;
+        height: 100vh;
+        left: -100%;
+        margin: 0;
+    }
+    header nav .logo{
+        display: none;
+        margin: 0;
+        background-color: #202028;
+        text-align: center;
+        align-content: center;
+        width: 100%;
+    }
+    header nav .menu{
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+    header nav .menu ul li{
+        list-style: none;
+        margin: 20px;
+        float: none;
+    }
+}
+@media screen and (max-width:600px){
+    
+}

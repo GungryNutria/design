@@ -1,0 +1,138 @@
+.packages-section{
+    height: 100%;
+    position: relative;
+    background: rgb(241,131,30);
+    background: radial-gradient(circle, rgba(241,131,30,1) 0%, rgba(255,130,159,1) 100%);
+    overflow: hidden;
+}
+.packages-section .title{
+    font-size: 40px;
+    color: #fff;
+}
+.packages-section .square{
+    background: rgb(241,131,30);
+    background: radial-gradient(circle, rgba(241,131,30,1) 0%, rgba(255,255,255,0.3) 100%);
+    z-index: 0;
+    border-radius: 100px;
+    padding: 20%;
+    position: absolute;
+    top: -100px;
+    right: -150px;
+    transform: rotate(-45deg);
+}
+.packages-section .packages-body{
+    
+    margin-top: 1%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-flow: wrap;
+}
+.packages-section .packages-body .package{
+    cursor: pointer;
+    background-color: #edeff1;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    margin: 2%;
+    border-radius: 10px;
+    width: 20%;
+    transition: all 1s;
+    
+}
+.packages-section .packages-body .package:hover{
+    
+    transition: all 1s;
+    width: 25%;
+    position: relative;
+}
+.packages-section .packages-body .package:hover .package-button{
+    padding-bottom: 5%;
+}
+.packages-section .packages-body .package .package-header{
+    height: 80px;
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+}
+.packages-section .packages-body .package .package-header .etiqueta{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    background-color: #f1831e;
+    border-top-left-radius: 7px;
+    top: 20px;
+    left: -25px;
+    padding: 1%;
+    position: absolute;
+    transition: all 1s;
+}
+.packages-section .packages-body .package .package-header .etiqueta::after{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    content: '';
+    z-index: -99;
+    position: absolute;
+    right: -20px;
+    top: 0px;
+    background-color: #f1831e;
+    padding: 22px;
+    transform: skew(40deg);
+    transition: all 1s;
+
+}
+.packages-section .packages-body .package:hover .package-header .etiqueta::after{
+    transition: all 1s;
+    padding: 23px;
+
+}
+.packages-section .packages-body .package .package-price{
+    margin-top: 4%;
+    position: relative;
+    font-size: 30px;
+}
+.packages-section .packages-body .package .package-price h2 sup{
+    font-size: 15px;
+}
+.packages-section .packages-body .package .package-list{
+    color: #5b5b5b;
+    
+    position: relative;
+    margin-top: 3%;
+}
+.packages-section .packages-body .package .package-list ul li{
+    margin: 1%;
+    text-align: justify;
+    padding: 3% 4%;
+    list-style: none;
+}
+.packages-section .packages-body .package .package-list ul li p i{
+    margin-right: 5px;
+    
+    color: #f1831e;
+}
+.packages-section .packages-body .package .package-list ul li .empty{
+    font-size: 15px;
+    color: #f1831e;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.packages-section .packages-body .package .package-button{
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    vertical-align: middle;
+    justify-content: center;
+    align-content: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.packages-section .packages-body .package .package-button a{
+    padding: 4% 5%;
+    border-radius: 10px;
+    background-color: #f1831e;
+    text-decoration: none;
+    color: #fff;
+}
