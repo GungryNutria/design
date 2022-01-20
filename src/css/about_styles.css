@@ -24,3 +24,13 @@
 .about-section .about-container .about p{
     color: #5b5b5b;
 }
+@media screen and (max-width:1024px){
+}
+@media screen and (max-width:770px){
+}
+@media screen and (max-width:600px){
+    .about-section .about-container .about{
+        margin-top: 2%;
+        width: 80%;
+    }
+}

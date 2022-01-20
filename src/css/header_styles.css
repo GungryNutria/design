@@ -1,17 +1,20 @@
 .menu-button{
-    width: 98%;
+    width: 100%;
     font-size: 30px;
-    background-color: #0b0b11;
-    padding: 1%;
+    background-color: #f1831e;
     display: none;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .menu-button a{
+    color: #fff;
     text-align: left;
     margin-left: 1%;
 }
 
 header{
+    position: relative;
     width: 100%;
     background-color: #edeff1;
     height: 100vh;
@@ -84,6 +87,7 @@ header .header_body .box_img img{
 }
 @media screen and (max-width:1024px){
     .menu-button{
+        text-align: justify;
         display: block;
     }
     header{
@@ -92,22 +96,18 @@ header .header_body .box_img img{
     }
     header nav{
         width: 100%;
-    }
-    header nav .menu ul li{
-        list-style: none;
-        margin: 20px;
-        float: left;
+        align-content: inherit;
+    align-items: inherit;
     }
     header nav .menu ul li a{
+        color: #fff;
         font-size: 25px;
     }
-}
-@media screen and (max-width:770px){
     header nav{
-        background-color: #e15800;
+        background-color: #f1831e;
         text-align: left;
         position: absolute;
-        top: 40px;
+        top: 30px;
         z-index: 20;
         width: 100%;
         height: 100vh;
@@ -123,7 +123,7 @@ header .header_body .box_img img{
         width: 100%;
     }
     header nav .menu{
-        margin: 0;
+
         text-align: center;
         width: 100%;
     }
@@ -132,7 +132,34 @@ header .header_body .box_img img{
         margin: 20px;
         float: none;
     }
+    header .header_body .box_text h1{
+        font-size: 30px;
+    }
+    header .header_body .box_text p{
+        font-size: 20px;
+    }
+    header .header_body .box_text a{
+        font-size: 20px;
+    }
+    header .header_body .box_img img{
+        width: 300px;
+    }
+}
+@media screen and (max-width:770px){
+    
 }
 @media screen and (max-width:600px){
+    header{
+        height: 80vh;
+    }
+    header .header_body .box_text{
+        width: 80%;
+    }
+    header .header_body .box_img{
+        display: none;
+        position: absolute;
+        bottom: 0px;
+        right: 100px;
+    }
     
 }

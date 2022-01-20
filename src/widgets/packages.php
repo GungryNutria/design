@@ -160,7 +160,7 @@
     </div>
 </div>
 <br><br>
-<h1 style="color:#fff;">Tiempo de entrega 5- 10 días hábiles después de
-haber recibido el requerimiento completo.</h1>
+<h3 style="color:#fff;">Tiempo de entrega 5- 10 días hábiles después de
+haber recibido el requerimiento completo.</h3>
 <br><br>
 </section>
