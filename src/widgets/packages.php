@@ -1,5 +1,5 @@
 
-<section class="packages-section">
+<section class="packages-section" id="paquetes">
     <div class="square">
 
     </div>
@@ -52,10 +52,8 @@
             </ul>
         </div>
         <div class="package-button">
-            
             <a href="#">Contactanos</a>
-            <br>
-            <br>
+            
         </div>
     </div>
     <div class="package">

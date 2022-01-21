@@ -1,0 +1,90 @@
+footer{
+    color: #fff;
+    width: 100%;
+}
+footer .footer-container{
+    background-color: #101110;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    text-align: justify;
+    flex-flow: wrap;
+    vertical-align: top;
+}
+footer .footer-container .footer-box{
+    margin: 2%;
+    text-align: justify;
+    width: 20%;
+}
+footer .footer-container .footer-box ul{
+    list-style: none;
+}
+footer .footer-container .footer-box ul li{
+    margin-top: 4%;
+}
+footer .footer-container .footer-box ul li a{
+    color: #5b5b5b;
+    text-decoration: none;
+    transition: all 1s;
+}
+footer .footer-container .footer-box ul li p{
+    color: #5b5b5b;
+}
+footer .footer-container .footer-box ul li p i{
+    color: #fff;
+}
+footer .footer-container .footer-box ul li a b{
+    color: #fff;
+}
+footer .footer-container .footer-box ul li p b{
+    color: #fff;
+}
+footer .footer-container .footer-box ul li a i{
+    color: #fff;
+}
+footer .footer-container .footer-box ul li a:hover{
+    color: #fff;
+    transition: all 1s;
+}
+footer .copyright-container{
+
+    width: 100%;
+    background-color: #1a1b1a;
+}
+footer .copyright-container .social-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    vertical-align: middle;
+    flex-flow: wrap;
+}
+footer .copyright-container .social-container .social-box{
+    vertical-align: middle;
+    margin: 5px;
+    color: #000;
+
+}
+footer .copyright-container .social-container .social-box a i{
+    background-color: #fff;
+    color: rgb(241,131,30);
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+    transition: all 1s;
+}
+footer .copyright-container .social-container .social-box a i:hover{
+    background-color: rgb(241,131,30);
+    color: #fff;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+    transition: all 1s;
+}

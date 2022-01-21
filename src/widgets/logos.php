@@ -1,4 +1,4 @@
-<section class="logos-section">
+<section class="logos-section" id="proyectos">
     <br><br>
 <h1>Proyectos</h1>
 <br><br>

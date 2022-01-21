@@ -1,4 +1,4 @@
-<section class="about-section">
+<section class="about-section" id="servicios">
     <h1 class="title">Te brindamos los servicios de:</h1>
     <br><br>
     <div class="about-container">

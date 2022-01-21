@@ -8,9 +8,10 @@
         <div class="menu">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Paquetes</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#paquetes">Paquetes</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </div>
     </nav>

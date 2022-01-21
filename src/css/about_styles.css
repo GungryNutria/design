@@ -1,6 +1,13 @@
 .about-section{
+    visibility: hidden;
+    transition: visibility 0.3s linear,opacity 0.3s linear;
+    opacity:0;
     width: 100%;
     margin-top: 5%;
+}
+.about-active{
+    visibility: visible;
+    opacity: 1;
 }
 .about-section .title{
     font-size: 40px;
@@ -20,10 +27,23 @@
 }
 .about-section .about-container .about img{
     width: 100px;
+    transition: all 4s ease;
+}
+.about-section .about-container .about img:hover{
+    position: relative;
+    animation-name: image-animation;
+    animation-duration: 4s;
 }
 .about-section .about-container .about p{
     color: #5b5b5b;
 }
+@keyframes image-animation {
+    0%   {top:0px;}
+    25%  {top:-20px;}
+    50%  {top:20px;}
+    75%  {top:-20px;}
+    100% {top:0px;}
+  }
 @media screen and (max-width:1024px){
 }
 @media screen and (max-width:770px){

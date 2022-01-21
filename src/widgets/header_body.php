@@ -8,6 +8,8 @@
                 <a href="#">Contáctanos</a>
         </div>
         <div class="box_img">
+                <div class="img">
                 <img src="src/assets/multimedia/designer_life.svg" alt="">
+                </div>
         </div>
 </div>

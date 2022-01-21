@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="src/css/logos_styles.css">
 <link rel="stylesheet" href="src/css/about_styles.css">
 <link rel="stylesheet" href="src/css/contact_styles.css">
+<link rel="stylesheet" href="src/css/footer_styles.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 

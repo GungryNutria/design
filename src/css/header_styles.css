@@ -150,16 +150,18 @@ header .header_body .box_img img{
 }
 @media screen and (max-width:600px){
     header{
-        height: 80vh;
+        height: 100vh;
     }
     header .header_body .box_text{
-        width: 80%;
+        width: 90%;
     }
     header .header_body .box_img{
-        display: none;
-        position: absolute;
-        bottom: 0px;
-        right: 100px;
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    header .header_body .box_img{
+        margin-top: 20%;
     }
     
 }
