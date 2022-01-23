@@ -50,12 +50,6 @@
     transition: all 1s;
     
 }
-.packages-section .packages-body .package:hover{
-    
-    transition: all 1s;
-    width: 25%;
-    position: relative;
-}
 
 .packages-section .packages-body .package .package-header{
     height: 80px;
@@ -87,11 +81,6 @@
     padding: 22px;
     transform: skew(40deg);
     transition: all 1s;
-
-}
-.packages-section .packages-body .package:hover .package-header .etiqueta::after{
-    transition: all 1s;
-    padding: 23px;
 
 }
 .packages-section .packages-body .package .package-price{

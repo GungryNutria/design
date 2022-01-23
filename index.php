@@ -13,6 +13,7 @@
 <center>
     <header>
     <?php
+    include 'src/widgets/social_header.php';
     include 'src/widgets/menu.php';
     include 'src/widgets/header_body.php';
     ?>

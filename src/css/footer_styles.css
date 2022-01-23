@@ -88,3 +88,15 @@ footer .copyright-container .social-container .social-box a i:hover{
     border-radius: 100%;
     transition: all 1s;
 }
+@media screen and (max-width:900px){
+    footer .footer-container .footer-box{
+        width: 40%;
+    }
+}
+@media screen and (max-width:600px){
+    footer .footer-container .footer-box{
+        margin-top: 2%;
+        width: 90%;
+    }
+    
+}

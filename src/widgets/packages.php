@@ -113,7 +113,7 @@
             </div>
         </div>
         <div class="package-price">
-        <h2>$4,500<sup>+IVA</sup></h2>
+        <h2>$6,000<sup>+IVA</sup></h2>
         </div>
         <div class="package-list">
             <ul>
